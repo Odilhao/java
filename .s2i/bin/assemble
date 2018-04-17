@@ -1,6 +1,6 @@
 echo "Baixando o EAR"
 sleep 10
-wget https://developer.jboss.org/servlet/JiveServlet/download/588885-27216/HelloWorld.ear -O /wildfly/standalone/deployments/helloworld.ear
+wget https://developer.jboss.org/servlet/JiveServlet/download/588885-27216/HelloWorld.ear -O /wildfly/standalone/deployments/ROOT.ear
 sleep 10
 echo "Deploy finalizado"
 sleep 10
